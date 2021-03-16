@@ -1,0 +1,25 @@
+
+<h1>parent</h1>
+
+
+<div>
+    <label>please enter parent name:</label>
+    <input type="text" [(ngModel)]="name">
+</div>
+
+<br> <br>
+<div>
+    <label>please enter parent age:</label>
+    <input type="text" [(ngModel)]="age">
+</div>
+
+<!-- 
+<h2>my child name is:</h2>
+{{childName}} -->
+
+<hr>
+<button (click)=" onChild2ButtonClicked()">click</button>
+
+
+<!-- <app-new [parentName]="name"></app-new> -->
+<router-outlet></router-outlet>
